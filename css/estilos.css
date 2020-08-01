@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    font-family:'Arimo', sans-serif;
+}
+.contenedor{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.contenedor-lista{
+    width: 100%;
+    background-color: #1c1ce950;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+.contenedor-lista .h1-lista{
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+    
+}
+.contenedor-lista input[type = text]{
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Arimo', sans-serif;
+    margin-right: 10px;
+    outline: none;
+    border: 1px solid black;
+
+}
+
+.contenedor-lista input[type = button]{
+    font-family: 'Arimo', sans-serif;
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 3px;
+    border: 1px solid;
+    background: whitesmoke;
+    display: inline-block;
+    outline: none;
+}
+.contenedor-lista input[type = color]{
+    margin-left: 30px;
+}
+.resultado.lista{
+    width: 100%;
+}
+.resultado-lista .h2-resultado{
+    text-align: center;
+    margin: 20px;
+    text-decoration: underline  1.4px gray;
+}
+.resultado-lista ul{
+    list-style: none;
+}
+
+.resultado-lista ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 20px 5px 20px 5px;
+    border-bottom: 1.2px solid gainsboro;
+}
+
+.resultado-lista ul li a:hover{
+    text-decoration: underline;
+}
